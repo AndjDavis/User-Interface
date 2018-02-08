@@ -62,3 +62,82 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 10px;
 }
+
+div.container {
+	margin: 0 200px;
+}
+
+
+/* HEADER */
+
+
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+}
+
+header nav {
+	width: 70%;
+	
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+}
+
+header nav ul li a {
+	text-decoration: none;
+}
+
+/* BANNER */
+
+.cta {
+	height: 30%;
+	display: flex;
+	align-items: center;
+}
+
+.cta-text {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 80px
+}
+
+.cta-img {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.main-content {
+	height: 800px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around
+}
+
+.top-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.top-content .text-content {
+	width: 49%;
+}
+
+.bottom-content {
+	display: flex;
+}
